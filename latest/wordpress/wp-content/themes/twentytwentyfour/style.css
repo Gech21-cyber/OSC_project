@@ -13,3 +13,27 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: twentytwentyfour
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+/* Custom System Architect Styles */
+
+/* 1. Change the overall background color */
+body {
+    background-color: #f0f2f5 !important; /* A professional light grey */
+}
+
+/* 2. Make your Table and Bio look like a clean "Card" */
+.wp-site-blocks {
+    background: #ffffff;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* 3. Style the Table headers */
+.wp-block-table th {
+    background-color: #0073aa; /* WordPress Blue */
+    color: white;
+    padding: 12px;
+}
