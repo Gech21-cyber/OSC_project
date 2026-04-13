@@ -1,5 +1,39 @@
 
-[ADVANCED WORDPRESS RESEARCH]
-Data Science: Utilizing WordPress REST API for automated dataset collection.
-Architecture: Exploring 'Headless' deployments to minimize attack surface.
-Performance: Leveraging Nginx as a reverse proxy for security hardening.
+# PROJECT COMPONENT: OPEN SOURCE CUSTOMIZATION (WORDPRESS)
+
+[CUSTOMIZATION_PHILOSOPHY]
+Customization within the OSC_project goes beyond aesthetics. It focuses 
+on 'Security-First Development'—modifying open-source code to reduce the 
+attack surface while maintaining full functionality.
+
+[CORE_CUSTOMIZATION_AREAS]
+1. THEME HARDENING & CHILD THEMES:
+   - Implementation: Creating 'Child Themes' to separate custom security 
+     functions from the 'Parent' theme.
+   - Purpose: Ensures that upstream security patches do not overwrite 
+     custom-coded protection layers or localized Tigrinya translations.
+
+2. PLUGIN OPTIMIZATION (LEAN STACK):
+   - Strategy: Code-level customization to replace bulky, insecure 
+     third-party plugins with lightweight, custom PHP functions in 
+     functions.php.
+   - Result: Fewer lines of code means fewer entry points for attackers.
+
+3. LOCALIZATION & DATASET INTEGRATION:
+   - Feature: Customizing the 'Custom Post Types' (CPT) to store and 
+     display the Tigrinya-English speech dataset.
+   - Integration: Modifying the WordPress loop to serve specific data 
+     formats for Machine Learning preprocessing.
+
+[SECURITY_CONTROL_CUSTOMIZATIONS]
+- WP-ADMIN OBFUSCATION: Customizing the directory structure to hide the 
+  default login path from automated botnets.
+- HEADER MODIFICATION: Using custom PHP to inject Security Headers 
+  (Content-Security-Policy, X-Frame-Options) directly into the theme.
+- REST API FILTERING: Customizing the API output to ensure only non-sensitive 
+  data is exposed to external ML scripts.
+
+[OSC_PROJECT_IMPACT]
+These customizations demonstrate the ability to take a standard open-source 
+tool and re-engineer it for a specific, secure use case. This bridges 
+the gap between standard IT support and Advanced Software Engineering.
