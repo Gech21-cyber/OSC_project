@@ -1,1 +1,5 @@
-This is my cybersecurity research folder
+
+[ADVANCED WORDPRESS RESEARCH]
+Data Science: Utilizing WordPress REST API for automated dataset collection.
+Architecture: Exploring 'Headless' deployments to minimize attack surface.
+Performance: Leveraging Nginx as a reverse proxy for security hardening.
