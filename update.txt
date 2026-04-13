@@ -1,1 +1,5 @@
-Update by hagos1919-web
+
+[2026-04-14] - AUTOMATION & MONITORING
+Initiated research into automated vulnerability scanning via WPScan.
+Configured terminal aliases in Kali for rapid security auditing.
+Planned the integration of automated security reporting into the OSC_project workflow.
